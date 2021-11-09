@@ -4,10 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+//การสร้าง Components แบบ funtion
+function HelloComponets(){
+  return <h1>สวัสดี Componets</h1>
+}
+
+//การสร้าง Componets แบบ Class
+class HelloClassComponets extends React.Component{
+  render(){
+    return <h1>สวัสดี Class Componets</h1>
+  }
+}
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App/>,
   document.getElementById('root')
 );
 

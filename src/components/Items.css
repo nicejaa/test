@@ -1,0 +1,12 @@
+.item{
+    color: blue;
+    list-style-type: none;
+}
+.income{
+    color: blue;
+    list-style-type: none;
+}
+.expense{
+    color: red;
+    list-style-type: none;
+}
