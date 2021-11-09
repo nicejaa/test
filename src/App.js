@@ -5,7 +5,7 @@ import { useState } from "react";
 import './App.css'
 
 function App() {
-//classname
+//classname testgit
 const design =  {backgroundColor:'red',textAlign:'center',color:'white'};
 
 const initdata = [
