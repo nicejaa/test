@@ -5,7 +5,7 @@ import { useState } from "react";
 import './App.css'
 
 function App() {
-//classname
+//classname testgithaha
 const design =  {backgroundColor:'red',textAlign:'center',color:'white'};
 
 const initdata = [
